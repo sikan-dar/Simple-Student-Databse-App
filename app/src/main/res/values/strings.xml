@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SissWork</string>
+
+    <string name="facebook_application_id" translatable="false">481474385726381</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb481474385726381</string>
+</resources>

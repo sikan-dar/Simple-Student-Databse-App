@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="Student Details"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.25"
+           android:text="Name"
+           android:textColor="@android:color/black"/>
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/editName"
+           android:layout_weight="0.75"
+           android:hint="Enter Name"
+           android:ems="10"
+           android:textColor="@android:color/black"
+           android:textColorHint="@color/colorAccent"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="RollNo"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editRoll"
+            android:layout_weight="0.75"
+            android:hint="Roll Number"
+            android:ems="10"   android:textColor="@android:color/black"
+            android:textColorHint="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Address"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/editMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:ems="10"
+            android:hint="Enter Address"   android:textColor="@android:color/black"
+            android:textColorHint="@color/colorAccent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:text="Delete"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/modifybtn"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="Modify" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/viewallbtn"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:text="View all" />
+
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="About" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+
+        <Button
+            android:id="@+id/btn_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:text="Sign Out"></Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

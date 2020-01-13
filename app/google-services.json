@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "24153960825",
+    "firebase_url": "https://myregisteractivity.firebaseio.com",
+    "project_id": "myregisteractivity",
+    "storage_bucket": "myregisteractivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24153960825:android:15381da03f52f307",
+        "android_client_info": {
+          "package_name": "com.example.sisslogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24153960825-jpga24ta55h8fmfpdk5r5i8v4pc27gh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMPOsibACGfBaYvvgIrWk5jK6YKQrjDXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24153960825-jpga24ta55h8fmfpdk5r5i8v4pc27gh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24153960825:android:eb3884fd9765d282",
+        "android_client_info": {
+          "package_name": "com.example.sisswork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24153960825-499g9rlkdobqka7ac2p31iaafa1v0dde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sisswork",
+            "certificate_hash": "1bad0cbb22a902e379b50b4463e4db152b7a492f"
+          }
+        },
+        {
+          "client_id": "24153960825-jpga24ta55h8fmfpdk5r5i8v4pc27gh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMPOsibACGfBaYvvgIrWk5jK6YKQrjDXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24153960825-jpga24ta55h8fmfpdk5r5i8v4pc27gh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
